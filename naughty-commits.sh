@@ -3,7 +3,7 @@ set -Eeuo pipefail
 
 fileSizeThresholdMB='2'
 
-export BASHBREW_ARCH=
+export BASHBREW_ARCH=1
 
 gitCache="$(bashbrew cat --format '{{ gitCache }}' <(echo 'Maintainers: empty hack (@example)'))"
 _git() {
